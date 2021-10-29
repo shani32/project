@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#firstpage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8fa80996-ac5c-4cef-9534-a61a9457bfb3/bvlatuR/std/2880x1800/M3-Hero-LHD-US-D);
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+svg{
+    width: 120px;
+    height: 30px; 
+    margin-left: 32px;
+    margin-top: 20px;
+    padding: 0px 0px 0 8px; 
+    position: fixed;
+    top: 0px;  
+    
+}
+svg:hover{
+    cursor: pointer;
+}
+.nav-bar{
+    width: 100%;
+    height: 10%;
+    
+}
+
+
+.first-nav{
+    list-style: none;
+    overflow: auto;
+    margin-left: 35%;
+    padding: 20px 40px;
+    font-size: 20px;
+    
+    
+}
+.first-nav li{
+    float: left;
+    
+}
+.first-nav li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0px 8px 0px 8px;
+    
+} 
+.first-nav li a:hover{
+  background-color: rgb(105, 103, 102);
+  cursor: pointer;
+}
+.second-nav{
+    list-style: none;
+    overflow: auto;
+    margin-top: -42px;
+    padding: 0px 16px;
+    font-size: 20px;
+}
+.second-nav li {
+    float: right; 
+}
+
+.second-nav li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 8px;
+}
+.second-nav li a:hover{
+    background-color: rgb(105, 103, 102);
+    cursor: pointer;
+  }
+  .model{
+      color: white;
+      text-align: center;
+      line-height: center;
+      font-size: 24px;
+      margin-top: 100px;
+  }
+  .text{
+      width: 100%;
+      height: 10%;
+      text-align: center;
+      line-height: 2em;
+      color: white;
+      position: absolute;
+      bottom: 50px;
+      right: 700px;
+      font-size: 24;
+      
+
+  }
+  .text-1{
+      width: 10%;
+      height: 80% ;
+      float:right
+  }
+  .text-1 button{
+    border-radius: 16px;
+    border: 3px solid white;
+    background-color: transparent;
+    color:white;
+    padding: 20px;
+  }
+  .text-1 button:hover{
+      background-color: white;
+      color: black;
+
+  }
+  .text-2{
+      width: 10%;
+      height: 80%;
+      float: right;
+  }
+  .text-3{
+    width: 10%;
+    height: 80% ;
+    float: right;
+}
+.text-4{
+    width: 10%;
+    height: 80%;
+    float: right;
+}
+
+
+
+
+  #secondpage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/ba4f4fe9-5c46-48c2-ad03-a5c7bf68f30c/bvlatuR/std/2880x1800/model_3_safety_hero);    
+    background-size: cover;
+    background-position: center;
+    margin: auto 0;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.whitecover{
+    width: 23vw;
+    height: 100vh;
+    background-color: white;
+    float: left;
+    padding: 40px;
+    position: relative;
+}
+
+.whitecover h2{
+    font-size: 17px;
+    padding-top: 30px;
+    padding-left: 20px;
+    
+    
+    
+}
+.whitecover h1{
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.whitecover p{
+    font-size: 14px;
+    line-height: 1.6em;
+    padding: 20px;
+    
+}
+.rating{
+    width: 152w;
+    height: 32vh;
+    padding-left: 40px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 16%;
+}
+.hstar{
+    padding: 30px;
+    font-size: 20px;
+}
+
+.starsign{
+position: absolute;
+right: 60px;
+}
+.btn-learn2 button{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
+.btn-learn2 button:hover{
+background-color: black;
+color: white;    
+}
+.btn22 button{
+    
+    border-radius: 16px;
+    border: 3px solid black;
+    background-color: transparent;
+    color:black;
+    padding: 10px 15px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 20px;
+    left: 220px;
+    
+}
+.btn22 button:hover{
+    background-color: black;
+    color: white; 
+}
+
+
+
+#thirdpage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop );
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.txt{
+    color: white;
+    position: absolute;
+    
+
+}
+.txt-1{
+ float: right;   
+    
+}
+.txt-2{
+float: right;   
+       
+   }
+.txt-3{
+    float: right;   
+       
+   }
+
+
+.accelerate{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    text-align: center;
+    padding: 0px 48px;
+    position: absolute;
+    
+    
+    
+
+}
+.box-1{
+    width: 30vw;
+    height: 18vh;
+    padding: 40px 10px 48px 10px;
+    float: left;
+    margin-left: 80px;
+    position: absolute;
+    top: 750px;
+
+    
+}
+.btn2 button{
+    border-radius: 16px;
+    border: 3px solid black;
+    background-color: transparent;
+    color:black;
+    padding: 10px 15px; 
+    text-align: center; 
+    margin-left: 160px; 
+
+}
+.btn2 button:hover{
+    background-color: black;
+    color: white;    
+   
+}
+.btn-learn button{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    position: absolute;
+    left: 140px;
+    text-align: center;
+    
+}
+.btn-learn button:hover{
+    background-color: black;
+    color: white;    
+
+}
+
+.btn-learn button span:hover{
+    background-color: black;
+    color: white;
+}
+
+.box-2{
+    width: 50%;
+    height: 100%;
+    padding: 48px 0px;
+    float: right;
+    text-align: left;
+    position: absolute;
+    top: 750px;
+    left: 750px;
+    
+    
+}
+.box-2 p{
+    font-size: 18px;
+    line-height: 1.4em;
+    float: right;
+}
+
+
+
